@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* typography */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body{
+display: flex;
+justify-content: center;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
+tr{
+
+}
+
+th {
+  letter-spacing: 4px;
+}
+
+td {
+  letter-spacing: 3px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+thead, tfoot {
+  background: url(leopardskin.jpg);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  
+}
+
+thead th, tfoot th, tfoot td {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border: 3px solid rgb(21, 73, 128);
+}
+
+caption{
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px rgb(209, 129, 221),
+             2px 2px 1px rgb(151, 25, 230);
+}
+.table_1{
+  border: 3px solid rgb(0, 0, 0);
+  box-shadow: rgb(0 0 255 / 20%) 20px 8px 7px 11px;
+}
+.img_row{
+  width: 100px; 
+  height: 100px;
+}
